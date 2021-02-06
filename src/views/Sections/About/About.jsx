@@ -17,6 +17,24 @@ const About = ({ className, frontmatter }) => {
   const { anchor, header: rootHeader, subheader: rootSubHeader, timeline } = frontmatter;
 
   return (
+    <>
+    </>
+  );
+};
+
+About.propTypes = {
+  className: PropTypes.string,
+  frontmatter: PropTypes.object,
+};
+
+About.defaultProps = {
+  className: null,
+  frontmatter: null,
+};
+
+export default About;
+
+/*
     <PageSection className={className} id={anchor}>
       <Row>
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
@@ -43,17 +61,4 @@ const About = ({ className, frontmatter }) => {
         </Col>
       </Row>
     </PageSection>
-  );
-};
-
-About.propTypes = {
-  className: PropTypes.string,
-  frontmatter: PropTypes.object,
-};
-
-About.defaultProps = {
-  className: null,
-  frontmatter: null,
-};
-
-export default About;
+    */

@@ -20,6 +20,22 @@ const Footer = ({ frontmatter }) => {
 
   return (
     <footer className="footer py-3">
+      <></>
+    </footer>
+  );
+};
+
+Footer.propTypes = {
+  frontmatter: PropTypes.object,
+};
+
+Footer.defaultProps = {
+  frontmatter: null,
+};
+
+export default Footer;
+
+/*
       <Container>
         <Row className="align-items-center text-center">
           <Col lg={5} className="text-lg-left">
@@ -40,16 +56,5 @@ const Footer = ({ frontmatter }) => {
           </Col>
         </Row>
       </Container>
-    </footer>
-  );
-};
 
-Footer.propTypes = {
-  frontmatter: PropTypes.object,
-};
-
-Footer.defaultProps = {
-  frontmatter: null,
-};
-
-export default Footer;
+  */

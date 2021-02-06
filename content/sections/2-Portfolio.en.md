@@ -4,52 +4,36 @@ header: "Portfolio"
 subheader: "Lorem ipsum dolor sit amet consectetur."
 portfolios: [
   {
-    imageFileName: "portfolio/01-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/01-full.jpg",
+    imageFileName: "portfolio/turtle_thumbnail.jpg",
+    imageFileNameDetail: "portfolio/turtleFull.jpg",
     header: "Learning by Making",
     subheader: "Web App",
-    content: "An educational web app designed to teach middle school and high school students science and programming through hands on projects. The app is an evolution of an existing Department of Education funded program currently taught in schools, leveraging new tools to connect sensors to the computer.",
-    extraInfo: ["Date: January 2017", "Client: Threads", "Category: Illustration"]
+    content: "An educational web app designed to teach middle school and high school students science and programming through hands on projects. The app is an evolution of an existing Department of Education funded program currently taught in schools, leveraging new tools to connect sensors to the computer. The app can be viewed at https://app.lbym.org.",
+    extraInfo: []
   },
   {
-    imageFileName: "portfolio/02-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/02-full.jpg",
+    imageFileName: "portfolio/archiveThumbnail.jpg",
+    imageFileNameDetail: "portfolio/archiveFull.jpg",
     header: "Astronomy Archive",
     subheader: "Web App",
     content: "Built for NASA's Universe of Learning, this image archive is able to parse data from telescope images in order to make them searchable and available to the public.",
-    extraInfo: ["Date: January 2017", "Client: Explorer", "Category: Graphic Design"]
+    extraInfo: []
   },
   {
-    imageFileName: "portfolio/03-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/03-full.jpg",
+    imageFileName: "portfolio/machThumbnail.jpg",
+    imageFileNameDetail: "portfolio/machFull.jpg",
     header: "MACH",
     subheader: "Website",
     content: "Public outreach website built for NASA's MACH mission.",
-    extraInfo: ["Date: January 2017", "Client: Finish", "Category: Identity"]
+    extraInfo: []
   },
   {
-    imageFileName: "portfolio/04-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/04-full.jpg",
+    imageFileName: "portfolio/marathonThumbnail.jpg",
+    imageFileNameDetail: "portfolio/marathonFull.jpg",
     header: "Marathon Tracker",
     subheader: "Web App",
-    content: "A custom tracker with distance entry and achievements, used to run Resurrection Roller Derby's 'Skate the Bay' marathon in 2020. This tracker is now being expanded into a general purpose tool that allows other teams to host their own marathons.",
-    extraInfo: ["Date: January 2017", "Client: Lines", "Category: Branding"]
-  },
-  {
-    imageFileName: "portfolio/05-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/05-full.jpg",
-    header: "Southwest",
-    subheader: "Website Design",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Southwest", "Category: Website Design"]
-  },
-  {
-    imageFileName: "portfolio/06-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/06-full.jpg",
-    header: "Window",
-    subheader: "Photography",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Window", "Category: Photography"]
+    content: "A custom tracker with distance entry and achievements, used to run Resurrection Roller Derby's 'Skate the Bay' marathon in 2020. Users could enter miles covered on a given date, unlocking achievement badges and, for some participants, showing progress on a leaderboard. Global stats, including distance covered by all participants added together, were also provided. Over 1,000 registrations were recorded, and total distance added up to nearly circumnavigating the Earth twice. This tracker is now being expanded into a general purpose tool, https://trexa.me, that allows other teams to host their own marathons.",
+    extraInfo: []
   }
 ]
 ---

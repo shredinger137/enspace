@@ -41,7 +41,7 @@ const SEO = ({ lang, description, meta, keywords, title }) => {
         },
         {
           property: `og:title`,
-          content: title,
+          content: "title",
         },
         {
           property: `og:description`,
@@ -71,9 +71,9 @@ const SEO = ({ lang, description, meta, keywords, title }) => {
         .concat(
           keywords.length > 0
             ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
+              name: `keywords`,
+              content: keywords.join(`, `),
+            }
             : [],
         )
         .concat(meta)}

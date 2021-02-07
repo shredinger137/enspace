@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: title,
+        name: "test",
         short_name: "Enspace",
         start_url: "/",
         background_color: "#ffffff",
